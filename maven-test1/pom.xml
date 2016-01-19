@@ -3,7 +3,7 @@
 
   <groupId>com.rada</groupId>
   <artifactId>maven-test1</artifactId>
-  <version>0.0.10-SNAPSHOT</version>
+  <version>0.0.11-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>maven-test1</name>
@@ -14,9 +14,9 @@
   </properties>
   
   <scm>
-        <connection>scm:git:https://github.com/radmila80/maven-test</connection>
-        <developerConnection>scm:git:https://github.com/radmila80/maven-test</developerConnection>
-        <url>https://github.com/radmila80/maven-test</url>
+        <connection>scm:git:https://github.com/radmila80/test-projects</connection>
+        <developerConnection>scm:git:https://github.com/radmila80/test-projects</developerConnection>
+        <url>https://github.com/radmila80/test-projects</url>
     	<tag>HEAD</tag>
   </scm>
   

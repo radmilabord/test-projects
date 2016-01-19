@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rada</groupId>
   <artifactId>module-pom</artifactId>
-  <version>2.0.1-SNAPSHOT</version>
+  <version>2.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <scm>
-        <connection>scm:git:https://github.com/radmila80/maven-module.git</connection>
-        <developerConnection>scm:git:https://github.com/radmila80/maven-module.git</developerConnection>
-        <url>https://github.com/radmila80/maven-module.git</url>
+        <connection>scm:git:https://github.com/radmila80/test-projects.git</connection>
+        <developerConnection>scm:git:https://github.com/radmila80/test-projects.git</developerConnection>
+        <url>https://github.com/radmila80/test-projects.git</url>
     	<tag>HEAD</tag>
   </scm>
   

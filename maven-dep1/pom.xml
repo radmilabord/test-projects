@@ -3,7 +3,7 @@
 
   <groupId>com.rada</groupId>
   <artifactId>maven-dep1</artifactId>
-  <version>0.0.8-SNAPSHOT</version>
+  <version>0.0.9-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>maven-dep1</name>
@@ -14,9 +14,9 @@
   </properties>
   
   <scm>
-        <connection>scm:git:https://github.com/radmila80/maven-dep1.git</connection>
-        <developerConnection>scm:git:https://github.com/radmila80/maven-dep1.git</developerConnection>
-        <url>https://github.com/radmila80/maven-dep1.git</url>
+        <connection>scm:git:https://github.com/radmila80/test-projects.git</connection>
+        <developerConnection>scm:git:https://github.com/radmila80/test-projects.git</developerConnection>
+        <url>https://github.com/radmila80/test-projects.git</url>
     	<tag>HEAD</tag>
   </scm>
   
