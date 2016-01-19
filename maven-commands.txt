@@ -1,0 +1,5 @@
+mvn -B -Dusername=radmila80 -Dpassword=pinelopa80 release:prepare release:perform
+mvn release:perform - create tag, remove snapshot, increemnt+snapshot
+mvn -B build-helper:parse-version release:branch -P production-release-config -DupdateBranchVersions=true -DupdateWorkingCopyVersions=false - create release branch
+
+mvn versions:use-latest-versions -Dincludes=com.rada:*

@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rada</groupId>
+  <artifactId>module-pom</artifactId>
+  <version>1.2.5-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <scm>
+        <connection>scm:git:https://github.com/radmila80/maven-module.git</connection>
+        <developerConnection>scm:git:https://github.com/radmila80/maven-module.git</developerConnection>
+        <url>https://github.com/radmila80/maven-module.git</url>
+    	<tag>HEAD</tag>
+  </scm>
+  
+	<modules>
+		<module>maven-dep1</module>
+		<module>maven-test1</module>
+	</modules>
+	
+	
+	<distributionManagement>
+    <repository>
+          <id>internal</id>
+          <name>internal</name>
+          <url>file:C:/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>internal.snapshots</id>
+        <name>internal snapshots</name>
+        <url>file:C:/repositories/snapshots</url>
+        <uniqueVersion>true</uniqueVersion>
+    </snapshotRepository>
+    <!--  <site> 
+            <id>sites</id>
+            <name>default sites site</name>
+            <url>dav:http://[nexus]/content/sites/sites/${project.groupId}/${project.artifactId}/${project.version}</url>
+        </site> -->
+  </distributionManagement>
+  
+  <repositories>
+				<repository>
+					<id>ordersets.internal.snapshots</id>
+					<name>InOrder Internal Snapshots Repository</name>
+					<url>file:C:/repositories/snapshots/</url>
+					<releases>
+						<enabled>false</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>ordersets.internal</id>
+					<name>InOrder Internal Release Repository</name>
+					<url>file:C:/repositories/releases/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+					<id>central</id>
+					<name>Maven Repository Switchboard</name>
+					<url>http://repo1.maven.org/maven2</url>
+				</repository>
+			</repositories>
+</project>
