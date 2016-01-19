@@ -1,0 +1,8 @@
+/maven-dep1/*.versionsBackup
+/maven-dep1/target/classes/com/rada/maven_test
+/maven-dep1/target
+/maven-test1/target
+/maven-test1/*.versionsBackup
+/target
+/release.properties
+/*.versionsBackup
