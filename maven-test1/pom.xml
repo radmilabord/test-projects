@@ -3,7 +3,7 @@
 
   <groupId>com.rada</groupId>
   <artifactId>maven-test1</artifactId>
-  <version>1.2.3-SNAPSHOT</version>
+  <version>1.2.3</version>
   <packaging>jar</packaging>
 
   <name>maven-test1</name>
@@ -17,7 +17,7 @@
         <connection>scm:git:https://github.com/radmilabord/test-projects.git</connection>
         <developerConnection>scm:git:https://github.com/radmilabord/test-projects.git</developerConnection>
         <url>https://github.com/radmilabord/test-projects.git</url>
-    	<tag>maven-test1-1.2.2</tag>
+    	<tag>maven-test1-1.2.3</tag>
   </scm>
   
   <profiles>
