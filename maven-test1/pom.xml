@@ -3,7 +3,7 @@
 
   <groupId>com.rada</groupId>
   <artifactId>maven-test1</artifactId>
-  <version>1.2.1-SNAPSHOT</version>
+  <version>1.2.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>maven-test1</name>
@@ -14,9 +14,9 @@
   </properties>
   
   <scm>
-        <connection>scm:git:https://github.com/radmila80/test-projects</connection>
-        <developerConnection>scm:git:https://github.com/radmila80/test-projects</developerConnection>
-        <url>https://github.com/radmila80/test-projects</url>
+        <connection>scm:git:https://github.com/radmilabord/test-projects.git</connection>
+        <developerConnection>scm:git:https://github.com/radmilabord/test-projects.git</developerConnection>
+        <url>https://github.com/radmilabord/test-projects.git</url>
     	<tag>HEAD</tag>
   </scm>
   
@@ -127,9 +127,21 @@
                     </dependencies>
                 </plugin>
                 <plugin>
-                    <artifactId>maven-release-plugin</artifactId>
-                    <version>2.5.2</version>
-                </plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-release-plugin</artifactId>
+    <version>2.5.3</version>
+    <executions>
+        <execution>
+            <id>default</id>
+            <goals>
+                <goal>perform</goal>
+            </goals>
+            <configuration>
+                <pomFileName>maven-test1/pom.xml</pomFileName>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
            </plugins>
 		</pluginManagement>
 	</build>
