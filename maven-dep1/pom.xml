@@ -3,7 +3,7 @@
 
   <groupId>com.rada</groupId>
   <artifactId>maven-dep1</artifactId>
-  <version>2.1.5</version>
+  <version>2.1.6-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>maven-dep1</name>
@@ -17,7 +17,7 @@
         <connection>scm:git:https://github.com/radmila80/test-projects.git</connection>
         <developerConnection>scm:git:https://github.com/radmila80/test-projects.git</developerConnection>
         <url>https://github.com/radmila80/test-projects.git</url>
-    	<tag>module-pom-2.1.0</tag>
+    	<tag>maven-dep1-1.1.0</tag>
   </scm>
   
   <profiles>
