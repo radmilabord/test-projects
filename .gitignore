@@ -6,3 +6,5 @@
 /target
 /release.properties
 /*.versionsBackup
+release-script.bat
+/maven-dep1/release-script.bat
