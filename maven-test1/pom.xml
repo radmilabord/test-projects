@@ -3,7 +3,7 @@
 
   <groupId>com.rada</groupId>
   <artifactId>maven-test1</artifactId>
-  <version>4.0.5-SNAPSHOT</version>
+  <version>4.0.5</version>
   <packaging>jar</packaging>
 
   <name>maven-test1</name>
@@ -52,7 +52,7 @@
   <dependency>
 	<groupId>com.rada</groupId>
 	<artifactId>maven-dep1</artifactId>
-	<version>1.1.4</version>
+	<version>3.1.7</version>
   </dependency>
     <dependency>
       <groupId>junit</groupId>
